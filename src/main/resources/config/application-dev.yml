@@ -80,6 +80,8 @@ jhipster:
           client-secret: internal
         authentication:
             jwt:
+                # secret: my-secret-key-which-should-be-changed-in-production-and-be-base64-encoded
+                base64-secret: ZTQwZDBkNjY5YzAxZjQyNGE1OGZjNzY5YjkyYzc0Njk0MDI4ZWE1NjY3YTY1YTQ0NmQzM2JlOTgyNGNmZGViM2Q0Nzk0MzVkYmFkY2MzMTM1MWY4NTlkMDE5ZmVkYWY2YjkwMDM0YzY5ZmZjODIwYmU3YWI2OTYzODg1MWIxNDU=
                 # The secret key should come from a Spring Cloud Config server, and not from this file
                 # If using the "native" profile, it should be located in the "central-config" directory
                 # If using the "git" profile, it should come from an external Git repository
